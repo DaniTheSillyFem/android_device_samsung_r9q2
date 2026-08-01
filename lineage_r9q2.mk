@@ -15,10 +15,10 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/r9q/device.mk)
+$(call inherit-product, device/samsung/r9q2/device.mk)
 
 # Inherit from the 64 bit configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -34,10 +34,10 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_r9q
-PRODUCT_DEVICE := r9q
+PRODUCT_NAME := lineage_r9q2
+PRODUCT_DEVICE := r9q2
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G990B
+PRODUCT_MODEL := SM-G990B2
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 

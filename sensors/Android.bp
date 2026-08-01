@@ -5,7 +5,7 @@
 //
 
 cc_library_shared {
-    name: "sensors.r9q",
+    name: "sensors.r9q2",
     defaults: ["hidl_defaults"],
     srcs: [
         "Sensor.cpp",

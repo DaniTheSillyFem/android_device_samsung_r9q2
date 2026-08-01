@@ -26,7 +26,7 @@ fi
 
 set -e
 
-export DEVICE=r9q
+export DEVICE=r9q2
 export DEVICE_COMMON=sm8350-common
 export VENDOR=samsung
 
