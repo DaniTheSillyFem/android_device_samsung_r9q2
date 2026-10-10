@@ -3,5 +3,10 @@
     "repository": "samsung-sm8350/android_kernel_samsung_sm8350",
     "target_path": "kernel/samsung/sm8350",
     "branch": "lineage-23.2"
+  },
+  {
+    "repository": "samsung-sm8350/android_device_samsung_sm8350-common",
+    "target_path": "device/samsung/sm8350-common",
+    "branch": "lineage-23.0"
   }
 ]
